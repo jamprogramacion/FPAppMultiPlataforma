@@ -105,7 +105,7 @@ public class EscaleraColor {
     			System.out.println("No se puede hacer escalera.");
     		}
     	// Se repite el programa hasta que el usuario elija salir introduciendo "S".
-    	salir = !JOptionPane.showInputDialog("Introduce S para salir, cualquier otra cosa para otra mano...").toUpperCase().equals("S"); 
+    	salir = JOptionPane.showInputDialog("Introduce S para salir, cualquier otra cosa para otra mano...").toUpperCase().equals("S"); 
 	    } while (!salir);
 	}
 }
